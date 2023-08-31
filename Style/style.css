@@ -1,0 +1,37 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    background: darkslategray;
+    display: flex;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .Profile_sidebar, .img, .Socials {
+      width: 100%;
+    }
+  }
+
+.Profile_sidebar {
+    padding: 45px;
+    background-color: rgb(226, 214, 214);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.socials {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
